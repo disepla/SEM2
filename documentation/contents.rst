@@ -3,20 +3,31 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to SEM's documentation!
-===============================
+.. image:: _static/images/praia-grande.png
+
+###############
+Welcome to SEM!
+###############
+
+SEM (Shoreline Evolution Model) is a powerful tool for simulating shoreline evolution at seasonal to decadal timescales that has a set of great features: 
+
+
+- beaches can develop in either sandy or rocky shores
+
+- flexible baseline definition
+	
+- shapefile input and output
+
+- internal or external wave transformation schemes
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
    
-   docs/getting-started-with-sem
-   docs/wavetimeseries
-   docs/sline
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   docs/motivation
+   docs/installing
+   docs/first-steps
+   docs/computational-grid
+   docs/boundary-conditions
+   
+  
